@@ -21,8 +21,8 @@ pip install pillow
 ## Screenshots
 
 ![Screenshot #1](https://github.com/gkdataio/Cryptic-Image-Messenger/blob/2ec807e181c492a55a4806c4f1df44f5db5688de/screenshot1.png)
-''''
+\
 ![Screenshot #2](https://github.com/gkdataio/Cryptic-Image-Messenger/blob/2ec807e181c492a55a4806c4f1df44f5db5688de/screenshot2.png)
-''''
+\
 ![Screenshot #3](https://github.com/gkdataio/Cryptic-Image-Messenger/blob/2ec807e181c492a55a4806c4f1df44f5db5688de/screenshot3.png)
-''''
+\
