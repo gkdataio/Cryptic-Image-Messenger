@@ -1,0 +1,18 @@
+{
+  "name": "Cryptic-Image-Messenger",
+  "title": [
+    "Cryptic image",
+    "messenger"
+  ],
+  "size": 68,
+  "subtitle": "A text-to-image experiment in Python.",
+  "index": "06",
+  "category": "EXPERIMENT",
+  "accent": "#E9B49B",
+  "motif": "pixels",
+  "tags": [
+    "TEXT",
+    "PERMUTATIONS",
+    "PIXELS"
+  ]
+}

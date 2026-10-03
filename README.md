@@ -1,12 +1,21 @@
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 600px)" srcset="docs/assets/readme/hero-mobile-static.png">
+  <source media="(prefers-reduced-motion: reduce)" srcset="docs/assets/readme/hero-static.png">
+  <source media="(max-width: 600px)" srcset="docs/assets/readme/hero-mobile.gif">
+  <img src="docs/assets/readme/hero.gif" width="1120" alt="Cryptic Image Messenger — a text-to-image experiment in Python">
+</picture>
+
 # Cryptic Image Messenger
 
-Cryptic Image Messenger is a Python script that encrypts a message by permuting its characters based on a seed and then encodes the encrypted message into an image. It also allows for the decryption of the message from the image using the same seed.
+A Python experiment that shuffles a message using a seed, stores character values as grayscale pixels, and reverses the process. It demonstrates permutations and image encoding; it does not provide modern cryptographic security.
+
+[How it works](#features) · [Requirements](#requirements) · [Screenshots](#screenshots)
 
 ## Features
 
-- **Encryption**: Permutes the characters of a message and encodes it into an image.
-- **Decryption**: Extracts the permuted message from the image and reverts it to the original message using the seed.
-- **Seed-Based Security**: Uses a seed for generating the permutation, ensuring that only those with the seed can decrypt the message.
+- **Encode**: Rearranges message characters and writes their values into an image.
+- **Decode**: Reads the pixel values and applies the inverse permutation.
+- **Seeded permutation**: The same seed reconstructs the character order.
 
 ## Requirements
 
@@ -20,9 +29,8 @@ pip install pillow
 
 ## Screenshots
 
-![Screenshot #1](https://github.com/gkdataio/Cryptic-Image-Messenger/blob/2ec807e181c492a55a4806c4f1df44f5db5688de/screenshot1.png)
-\
-![Screenshot #2](https://github.com/gkdataio/Cryptic-Image-Messenger/blob/2ec807e181c492a55a4806c4f1df44f5db5688de/screenshot2.png)
-\
-![Screenshot #3](https://github.com/gkdataio/Cryptic-Image-Messenger/blob/2ec807e181c492a55a4806c4f1df44f5db5688de/screenshot3.png)
-\
+![Cryptic Image Messenger example 1](screenshot1.png)
+
+![Cryptic Image Messenger example 2](screenshot2.png)
+
+![Cryptic Image Messenger example 3](screenshot3.png)
